@@ -23,6 +23,6 @@ class ForumController extends AbstractController
      */
     public function home(): Response
     {
-        return $this->render('forum/home.html.twig');
+        return $this->render('base.html.twig');
     }
 }
